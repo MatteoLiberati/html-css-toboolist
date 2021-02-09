@@ -36,9 +36,11 @@ main{
 nav{
     background-color: white;
     padding:15px 60px; 
+    margin-bottom: 2px;
 }
 
 .button{   
+    text-decoration:none;
     display: inline-block;
     padding:5px;
     border: 2px solid;
@@ -52,4 +54,53 @@ nav{
 
 .add-section{
     color: #d3d8dc;
+}
+
+/* TASK-LIST */
+.task-list{
+    background-color: white;
+    padding: 40px 60px;
+}
+
+/* ICONS AND LIST */
+.freccia{
+    font-size: 30px; 
+    text-align: center;
+    vertical-align: middle;
+}
+
+ul{
+    list-style-type: none;
+    padding-left:8px;
+    font-weight:500;
+}
+
+.verification{
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.check{
+    font-size: 12px;
+    text-align: center;
+    color:green;
+}
+
+/* LABEL */
+
+.label{
+    display: inline-block;
+    padding: 7px 12px;
+    color:white;
+    border-radius: 13px;
+    font-size: 10px;
+}
+
+.editorial{
+    background-color: #45abe9;
 }
