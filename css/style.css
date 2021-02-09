@@ -87,9 +87,9 @@ li{
     display: inline-block;
     margin-right: 5px;
     vertical-align: middle;
+    text-align: center;
     width: 20px;
     height: 20px;
-    text-align: center;
     border: 1px solid;
     border-radius: 50%;
 }
@@ -128,4 +128,12 @@ li{
 
 .mobile{
     background-color: #f29e33;
+}
+
+.website{
+    background-color: #d865a1;
+}
+
+.sales{
+    background-color: #b0c926;
 }
