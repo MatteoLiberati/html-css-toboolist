@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+header{
+    cursor:pointer;
+}
+
 body{
     background-color: #f6f8f9;
 }
@@ -71,6 +75,7 @@ section{
     font-size: 30px; 
     text-align: center;
     vertical-align: middle;
+    cursor:pointer;
 }
 
 ul{
@@ -81,6 +86,7 @@ ul{
 
 li{
     margin: 12px 0px;
+    cursor: pointer;
 }
 
 .verification{
@@ -92,6 +98,7 @@ li{
     height: 20px;
     border: 1px solid;
     border-radius: 50%;
+    cursor:pointer;
 }
 
 .check{
@@ -136,4 +143,12 @@ li{
 
 .sales{
     background-color: #b0c926;
+} 
+
+li:hover .verification{
+    color:blue;
+}
+
+li:hover .label{
+    background:blue;
 }
